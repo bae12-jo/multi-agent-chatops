@@ -1,0 +1,1275 @@
+{
+  "rsp-proc-fo": {
+    "description": "통계 서비스 메시징",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "박현정",
+        "원수민"
+      ],
+      "개발 담당자": [
+        "함서준",
+        "송선우"
+      ]
+    },
+    "비고": ""
+  },
+  "osp-queue-util": {
+    "description": "고객 서비스 금융",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "신지후"
+      ],
+      "개발 담당자": [
+        "박성현",
+        "백하은"
+      ]
+    },
+    "비고": ""
+  },
+  "isp-search-store": {
+    "description": "추천 서비스 메시지 큐",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "노유진"
+      ],
+      "개발 담당자": [
+        "조민성",
+        "장아름"
+      ]
+    },
+    "비고": ""
+  },
+  "psp-auth-store": {
+    "description": "검색 서비스 프로세서",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "오하은"
+      ],
+      "개발 담당자": [
+        "임성민",
+        "전동현",
+        "문지후"
+      ]
+    },
+    "비고": ""
+  },
+  "ysp-order-gateway": {
+    "description": "포인트 서비스 동기화",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "임민지"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "usp-pay-proxy": {
+    "description": "통계 서비스 큐",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "한민성"
+      ],
+      "개발 담당자": [
+        "강도윤",
+        "천성민",
+        "곽서연"
+      ]
+    },
+    "비고": ""
+  },
+  "lsp-cache-core": {
+    "description": "포인트 서비스 API",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "심선우",
+        "홍준서"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "hsp-bff-cmp": {
+    "description": "결제 서비스 Backend-For-Frontend",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "유하늘"
+      ],
+      "개발 담당자": [
+        "허민재",
+        "우동현",
+        "하민수"
+      ]
+    },
+    "비고": ""
+  },
+  "psp-msg-bo": {
+    "description": "리뷰 서비스 GraphQL API",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "우하준"
+      ],
+      "개발 담당자": [
+        "조하늘",
+        "강하은"
+      ]
+    },
+    "비고": ""
+  },
+  "lsp-data-engine": {
+    "description": "상품 서비스 정기 작업",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "양민준"
+      ],
+      "개발 담당자": [
+        "오성준"
+      ]
+    },
+    "비고": ""
+  },
+  "ksp-user-handler": {
+    "description": "알림 서비스 컴포넌트",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "배민지",
+        "허재민"
+      ],
+      "개발 담당자": [
+        "곽지호",
+        "문건우"
+      ]
+    },
+    "비고": ""
+  },
+  "psp-bat-engine": {
+    "description": "인증 서비스 계정 관리",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "황서연",
+        "장우진"
+      ],
+      "개발 담당자": [
+        "주지훈"
+      ]
+    },
+    "비고": ""
+  },
+  "msp-auth-com": {
+    "description": "콘텐츠 서비스 결제",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "엄건우"
+      ],
+      "개발 담당자": [
+        "천현정",
+        "조주원"
+      ]
+    },
+    "비고": ""
+  },
+  "usp-noti-store": {
+    "description": "마케팅 서비스 운영자",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "천지원"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "csp-pay-proxy": {
+    "description": "리뷰 서비스 BFF",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "권주원",
+        "민지원"
+      ],
+      "개발 담당자": [
+        "염유진"
+      ]
+    },
+    "비고": ""
+  },
+  "lsp-core-handler": {
+    "description": "추천 서비스 핵심 기능",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "곽수민"
+      ],
+      "개발 담당자": [
+        "전서연",
+        "배성훈",
+        "신유진"
+      ]
+    },
+    "비고": ""
+  },
+  "ysp-data-mgr": {
+    "description": "재고 관리 컴포넌트",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "주아름"
+      ],
+      "개발 담당자": [
+        "주성훈",
+        "배성민",
+        "서시우"
+      ]
+    },
+    "비고": ""
+  },
+  "isp-cache-com": {
+    "description": "고객 서비스 관리자",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "정현준",
+        "주하은"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "vsp-bff-handler": {
+    "description": "상품 서비스 검색",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "양정우"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "msp-order-srv": {
+    "description": "인증 서비스 처리기",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "윤재민"
+      ],
+      "개발 담당자": [
+        "차민수",
+        "변선우",
+        "정준우"
+      ]
+    },
+    "비고": ""
+  },
+  "jsp-pay-service": {
+    "description": "구독 서비스 메시지",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "윤서현",
+        "민성현"
+      ],
+      "개발 담당자": [
+        "천소민",
+        "지성민",
+        "성민재"
+      ]
+    },
+    "비고": ""
+  },
+  "ysp-sync-engine": {
+    "description": "콘텐츠 서비스 작업 대기열",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "민동현"
+      ],
+      "개발 담당자": [
+        "문아름"
+      ]
+    },
+    "비고": ""
+  },
+  "zsp-noti-com": {
+    "description": "마케팅 서비스 구성 요소",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "차현준",
+        "성정우"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "csp-cache-dis": {
+    "description": "통계 서비스 작업 대기열",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "배윤아"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "ysp-rec-service": {
+    "description": "추천 서비스 통신",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "변민성"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "ksp-rec-svc": {
+    "description": "쿠폰 서비스 큐레이션",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "장민수"
+      ],
+      "개발 담당자": [
+        "강서연",
+        "홍가은",
+        "우경수"
+      ]
+    },
+    "비고": ""
+  },
+  "hsp-proc-worker": {
+    "description": "통계 서비스 데이터 처리",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "서도윤",
+        "구성민"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "ksp-bat-worker": {
+    "description": "구독 서비스 캐시",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "안동현"
+      ],
+      "개발 담당자": [
+        "곽현민",
+        "천정민"
+      ]
+    },
+    "비고": ""
+  },
+  "tsp-rec-com": {
+    "description": "결제 서비스 연산 엔진",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "차예준"
+      ],
+      "개발 담당자": [
+        "신하늘",
+        "현현정"
+      ]
+    },
+    "비고": ""
+  },
+  "csp-auth-client": {
+    "description": "회원 서비스 핵심 기능",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "양경수",
+        "배성민"
+      ],
+      "개발 담당자": [
+        "채지현"
+      ]
+    },
+    "비고": ""
+  },
+  "isp-admin-service": {
+    "description": "검색 서비스 추천",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "공성현"
+      ],
+      "개발 담당자": [
+        "정윤아",
+        "주소민",
+        "임현민"
+      ]
+    },
+    "비고": ""
+  },
+  "jsp-order-dcp": {
+    "description": "인증 서비스 예약",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "신하준",
+        "류민성"
+      ],
+      "개발 담당자": [
+        "공현정"
+      ]
+    },
+    "비고": ""
+  },
+  "csp-admin-proc": {
+    "description": "광고 서비스 프로세서",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "서수민",
+        "이지훈"
+      ],
+      "개발 담당자": [
+        "장진우",
+        "임가현"
+      ]
+    },
+    "비고": ""
+  },
+  "fsp-pay-gateway": {
+    "description": "리뷰 서비스 쿠폰",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "우준서"
+      ],
+      "개발 담당자": [
+        "전도현",
+        "전정우",
+        "공경희"
+      ]
+    },
+    "비고": ""
+  },
+  "msp-core-store": {
+    "description": "검색 서비스 Backend-For-Frontend",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "권하은",
+        "손하준"
+      ],
+      "개발 담당자": [
+        "신성민"
+      ]
+    },
+    "비고": ""
+  },
+  "dsp-cache-dis": {
+    "description": "검색 서비스 정기 작업",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "유도현"
+      ],
+      "개발 담당자": [
+        "하중혁",
+        "김재민",
+        "오건우"
+      ]
+    },
+    "비고": ""
+  },
+  "fsp-admin-handler": {
+    "description": "검색 서비스 메모리 스토리지",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "변가은"
+      ],
+      "개발 담당자": [
+        "방지민"
+      ]
+    },
+    "비고": ""
+  },
+  "wsp-sync-svc": {
+    "description": "결제 서비스 거래",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "전정우"
+      ],
+      "개발 담당자": [
+        "강소민",
+        "변수민"
+      ]
+    },
+    "비고": ""
+  },
+  "xsp-rec-util": {
+    "description": "회원 서비스 스케줄러",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "염서진",
+        "장정민"
+      ],
+      "개발 담당자": [
+        "차도윤",
+        "공도현",
+        "신서연"
+      ]
+    },
+    "비고": ""
+  },
+  "hsp-pay-bo": {
+    "description": "마케팅 서비스 프론트엔드 중계",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "류경수"
+      ],
+      "개발 담당자": [
+        "정예준"
+      ]
+    },
+    "비고": ""
+  },
+  "usp-admin-mgr": {
+    "description": "결제 서비스 분산",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "우준우",
+        "고우진"
+      ],
+      "개발 담당자": [
+        "강지훈"
+      ]
+    },
+    "비고": ""
+  },
+  "rsp-search-client": {
+    "description": "포인트 서비스 일괄 처리",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "류가은"
+      ],
+      "개발 담당자": [
+        "임민재"
+      ]
+    },
+    "비고": ""
+  },
+  "nsp-api-fo": {
+    "description": "상품 서비스 처리기",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "강예준",
+        "박지후"
+      ],
+      "개발 담당자": [
+        "원유진"
+      ]
+    },
+    "비고": ""
+  },
+  "dsp-queue-com": {
+    "description": "인증 서비스 정산",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "강서연"
+      ],
+      "개발 담당자": [
+        "이하은"
+      ]
+    },
+    "비고": ""
+  },
+  "qsp-msg-cmp": {
+    "description": "결제 서비스 배치 처리",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "고민성"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "ssp-data-worker": {
+    "description": "콘텐츠 서비스 상태 동기화",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "공민수",
+        "박시우"
+      ],
+      "개발 담당자": [
+        "현아름",
+        "송경수"
+      ]
+    },
+    "비고": ""
+  },
+  "vsp-queue-fo": {
+    "description": "이벤트 서비스 상태 동기화",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "문준우"
+      ],
+      "개발 담당자": [
+        "배중혁"
+      ]
+    },
+    "비고": ""
+  },
+  "osp-noti-bo": {
+    "description": "상품 서비스 운영자",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "하정민"
+      ],
+      "개발 담당자": [
+        "권하준"
+      ]
+    },
+    "비고": ""
+  },
+  "ssp-core-gateway": {
+    "description": "통계 서비스 상태 동기화",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "안아름",
+        "윤민지"
+      ],
+      "개발 담당자": [
+        "고준서",
+        "강지현"
+      ]
+    },
+    "비고": ""
+  },
+  "ksp-data-svc": {
+    "description": "리뷰 서비스 메시징",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "주성현",
+        "이현정"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "esp-queue-worker": {
+    "description": "광고 서비스 주문",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "강유진",
+        "신영호"
+      ],
+      "개발 담당자": [
+        "함동현"
+      ]
+    },
+    "비고": ""
+  },
+  "usp-core-util": {
+    "description": "쿠폰 서비스 탐색 엔진",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "엄서연",
+        "양소윤"
+      ],
+      "개발 담당자": [
+        "천성민",
+        "양성민",
+        "함성현"
+      ]
+    },
+    "비고": ""
+  },
+  "lsp-bff-engine": {
+    "description": "추천 서비스 관리자",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "조하늘"
+      ],
+      "개발 담당자": [
+        "구지현",
+        "홍하은",
+        "류준우"
+      ]
+    },
+    "비고": ""
+  },
+  "usp-api-proc": {
+    "description": "검색 서비스 어드민",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "백예지"
+      ],
+      "개발 담당자": [
+        "배도윤",
+        "전성훈",
+        "차소윤"
+      ]
+    },
+    "비고": ""
+  },
+  "ksp-admin-core": {
+    "description": "마케팅 서비스 실시간 연동",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "함건우",
+        "유지은"
+      ],
+      "개발 담당자": [
+        "고지현"
+      ]
+    },
+    "비고": ""
+  },
+  "csp-search-proc": {
+    "description": "콘텐츠 서비스 컴포넌트",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "임동현",
+        "노유진"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "ssp-order-store": {
+    "description": "쿠폰 서비스 사용자",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "엄서진"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "hsp-data-gateway": {
+    "description": "마케팅 서비스 계정 관리",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "천예준",
+        "권현우"
+      ],
+      "개발 담당자": [
+        "권민지"
+      ]
+    },
+    "비고": ""
+  },
+  "isp-api-svc": {
+    "description": "회원 서비스 메모리 스토리지",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "안유진"
+      ],
+      "개발 담당자": [
+        "유우진",
+        "엄서준",
+        "염수민"
+      ]
+    },
+    "비고": ""
+  },
+  "fsp-search-proc": {
+    "description": "이벤트 서비스 실시간 연동",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "남현정"
+      ],
+      "개발 담당자": [
+        "방가현",
+        "임선우"
+      ]
+    },
+    "비고": ""
+  },
+  "wsp-auth-helper": {
+    "description": "광고 서비스 쿠폰",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "정지훈",
+        "정동현"
+      ],
+      "개발 담당자": [
+        "허재민",
+        "엄경희"
+      ]
+    },
+    "비고": ""
+  },
+  "hsp-msg-proxy": {
+    "description": "알림 서비스 결제",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "장건우"
+      ],
+      "개발 담당자": [
+        "천하은",
+        "지예준",
+        "민소민"
+      ]
+    },
+    "비고": ""
+  },
+  "osp-order-proc": {
+    "description": "회원 서비스 알림",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "조지은"
+      ],
+      "개발 담당자": [
+        "홍성민",
+        "지준우",
+        "유수민"
+      ]
+    },
+    "비고": ""
+  },
+  "fsp-user-util": {
+    "description": "추천 서비스 배치",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "임정우"
+      ],
+      "개발 담당자": [
+        "천재민",
+        "민민지"
+      ]
+    },
+    "비고": ""
+  },
+  "vsp-auth-mgr": {
+    "description": "상품 서비스 RESTful API",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "윤도윤",
+        "양지민"
+      ],
+      "개발 담당자": [
+        "송현정",
+        "윤선우"
+      ]
+    },
+    "비고": ""
+  },
+  "fsp-cache-util": {
+    "description": "회원 서비스 추천",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "곽민준"
+      ],
+      "개발 담당자": [
+        "허아름",
+        "주예준",
+        "전나은"
+      ]
+    },
+    "비고": ""
+  },
+  "rsp-search-srv": {
+    "description": "마케팅 서비스 추천",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "원성현"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "ssp-queue-mgr": {
+    "description": "광고 서비스 메시지 큐",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "손윤아"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "vsp-api-dcp": {
+    "description": "리뷰 서비스 상태 동기화",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "성중혁"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "esp-user-bo": {
+    "description": "광고 서비스 스케줄러",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "엄정우",
+        "채수민"
+      ],
+      "개발 담당자": [
+        "염지호"
+      ]
+    },
+    "비고": ""
+  },
+  "fsp-sync-handler": {
+    "description": "마케팅 서비스 운영자",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "구정민",
+        "강민준"
+      ],
+      "개발 담당자": [
+        "허시우",
+        "손민준",
+        "노진우"
+      ]
+    },
+    "비고": ""
+  },
+  "msp-cache-util": {
+    "description": "포인트 서비스 추천",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "차주원"
+      ],
+      "개발 담당자": [
+        "문도윤",
+        "채연우"
+      ]
+    },
+    "비고": ""
+  },
+  "rsp-cache-worker": {
+    "description": "상품 서비스 커뮤니케이션",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "나하은"
+      ],
+      "개발 담당자": [
+        "손민지"
+      ]
+    },
+    "비고": ""
+  },
+  "dsp-pay-worker": {
+    "description": "리뷰 서비스 커뮤니케이션",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "황시우",
+        "임지훈"
+      ],
+      "개발 담당자": [
+        "장경수",
+        "조도윤",
+        "현동현"
+      ]
+    },
+    "비고": ""
+  },
+  "wsp-bff-fo": {
+    "description": "회원 서비스 조회",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "배민성",
+        "심도현"
+      ],
+      "개발 담당자": [
+        "이지민",
+        "심민주"
+      ]
+    },
+    "비고": ""
+  },
+  "nsp-pay-proxy": {
+    "description": "구독 서비스 메시지 큐",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "성성준",
+        "차민주"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "wsp-noti-proxy": {
+    "description": "결제 서비스 회원",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "신민재",
+        "양지훈"
+      ],
+      "개발 담당자": [
+        "노재민",
+        "변서준",
+        "이민주"
+      ]
+    },
+    "비고": ""
+  },
+  "isp-admin-dcp": {
+    "description": "추천 서비스 분산",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "전현준"
+      ],
+      "개발 담당자": [
+        "함예준"
+      ]
+    },
+    "비고": ""
+  },
+  "ysp-auth-gateway": {
+    "description": "구독 서비스 커뮤니케이션",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "임도윤"
+      ],
+      "개발 담당자": [
+        "배연우",
+        "심예지"
+      ]
+    },
+    "비고": ""
+  },
+  "ssp-rec-srv": {
+    "description": "재고 관리 배치",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "엄하늘",
+        "백성민"
+      ],
+      "개발 담당자": [
+        "문도현"
+      ]
+    },
+    "비고": ""
+  },
+  "ssp-api-handler": {
+    "description": "결제 서비스 알림",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "김현준"
+      ],
+      "개발 담당자": [
+        "주연우",
+        "엄하준"
+      ]
+    },
+    "비고": ""
+  },
+  "nsp-api-service": {
+    "description": "재고 관리 데이터",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "조선우",
+        "노경수"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "gsp-bat-srv": {
+    "description": "광고 서비스 고객",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "허시우"
+      ],
+      "개발 담당자": [
+        "공아름",
+        "지현민"
+      ]
+    },
+    "비고": ""
+  },
+  "zsp-msg-client": {
+    "description": "고객 서비스 관리자",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "신윤아",
+        "오서연"
+      ],
+      "개발 담당자": [
+        "이지민",
+        "함경희",
+        "엄정우"
+      ]
+    },
+    "비고": ""
+  },
+  "csp-user-core": {
+    "description": "통계 서비스 플랫폼 핵심",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "전수민"
+      ],
+      "개발 담당자": [
+        "허서연",
+        "손현정"
+      ]
+    },
+    "비고": ""
+  },
+  "isp-cache-core": {
+    "description": "포인트 서비스 캐시",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "곽성현",
+        "전예준"
+      ],
+      "개발 담당자": [
+        "안하준"
+      ]
+    },
+    "비고": ""
+  },
+  "wsp-order-gateway": {
+    "description": "결제 서비스 거래",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "남중혁",
+        "원경수"
+      ],
+      "개발 담당자": [
+        "배서진",
+        "함정민"
+      ]
+    },
+    "비고": ""
+  },
+  "rsp-bff-dis": {
+    "description": "이벤트 서비스 배치 처리",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "남성준"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "zsp-user-srv": {
+    "description": "회원 서비스 데이터 처리",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "최서연"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "csp-rec-core": {
+    "description": "쿠폰 서비스 큐",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "조서연",
+        "김예지"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "jsp-rec-util": {
+    "description": "배송 서비스 인증",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "송지현"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "ksp-search-proxy": {
+    "description": "고객 서비스 공통",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "주하은",
+        "주예지"
+      ],
+      "개발 담당자": []
+    },
+    "비고": ""
+  },
+  "lsp-bff-bo": {
+    "description": "알림 서비스 사용자",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "류성준",
+        "염소민"
+      ],
+      "개발 담당자": [
+        "황지호"
+      ]
+    },
+    "비고": ""
+  },
+  "vsp-sync-core": {
+    "description": "광고 서비스 동기화",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "노지은"
+      ],
+      "개발 담당자": [
+        "전정민",
+        "조지훈"
+      ]
+    },
+    "비고": ""
+  },
+  "hsp-admin-client": {
+    "description": "콘텐츠 서비스 커뮤니케이션",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "성현정",
+        "신도윤"
+      ],
+      "개발 담당자": [
+        "서서현",
+        "염하준",
+        "황도현"
+      ]
+    },
+    "비고": ""
+  },
+  "isp-data-svc": {
+    "description": "상품 서비스 임시 저장소",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "김성현",
+        "차중혁"
+      ],
+      "개발 담당자": [
+        "오유진",
+        "오소윤"
+      ]
+    },
+    "비고": ""
+  },
+  "vsp-queue-service": {
+    "description": "재고 관리 금융",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "민예지"
+      ],
+      "개발 담당자": [
+        "방지은",
+        "민지원"
+      ]
+    },
+    "비고": ""
+  },
+  "qsp-proc-svc": {
+    "description": "재고 관리 모듈",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "염나은",
+        "허도현"
+      ],
+      "개발 담당자": [
+        "조정우",
+        "신예준"
+      ]
+    },
+    "비고": ""
+  },
+  "ysp-core-dis": {
+    "description": "리뷰 서비스 거래",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "곽중혁"
+      ],
+      "개발 담당자": [
+        "허현준"
+      ]
+    },
+    "비고": ""
+  },
+  "gsp-sync-mgr": {
+    "description": "재고 관리 인증",
+    "responsible_parties": {
+      "모듈 담당자": [
+        "방시우"
+      ],
+      "개발 담당자": [
+        "박민준",
+        "고나은"
+      ]
+    },
+    "비고": ""
+  }
+}

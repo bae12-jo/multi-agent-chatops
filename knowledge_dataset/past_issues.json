@@ -1,0 +1,1402 @@
+[
+  {
+    "service": "nsp-api-fo",
+    "error_message": "com.fasterxml.jackson.core.JsonParseException: Unexpected character",
+    "timestamp": "2025-06-28 16:35:48",
+    "resolution": "JSON 파싱 예외 처리 강화 및 유효성 검증 로직 추가",
+    "trace_id": "ae81df1900000000045df8b50307155f"
+  },
+  {
+    "service": "ksp-data-svc",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2025-06-27 08:24:39",
+    "resolution": "커넥션 풀 설정 조정 및 쿼리 최적화",
+    "trace_id": "9220df2800000000189a8eebeead55a6"
+  },
+  {
+    "service": "osp-queue-util",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2025-06-23 07:37:02",
+    "resolution": "생산자 조절 로직 추가 및 소비자 처리 속도 최적화",
+    "trace_id": "efc20d6b0000000011cef2f9be6c68cf"
+  },
+  {
+    "service": "zsp-noti-com",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2025-06-23 06:50:50",
+    "resolution": "네트워크 타임아웃 설정 조정 및 재시도 로직 추가",
+    "trace_id": "5b69fcd800000000ba1f3967d4b01335"
+  },
+  {
+    "service": "osp-noti-bo",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2025-06-18 09:35:30",
+    "resolution": "커넥션 풀 설정 최적화 및 안정성 개선",
+    "trace_id": "6176ed7d0000000001e6981640f810b4"
+  },
+  {
+    "service": "dsp-pay-worker",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2025-06-13 13:12:29",
+    "resolution": "Redis 클러스터 확장 및 고가용성 구성 검토",
+    "trace_id": "7e3db2e1000000009150951332392165"
+  },
+  {
+    "service": "psp-bat-engine",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2025-06-12 09:17:20",
+    "resolution": "트랜잭션 격리 수준 조정 및 재시도 로직 추가",
+    "trace_id": "179d2fb500000000d74617e93ce0ebd3"
+  },
+  {
+    "service": "isp-admin-dcp",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2025-06-11 11:47:48",
+    "resolution": "트랜잭션 격리 수준 조정 및 재시도 로직 추가",
+    "trace_id": "45ccacfa00000000659f12e2ee9a430e"
+  },
+  {
+    "service": "qsp-msg-cmp",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2025-06-10 05:50:01",
+    "resolution": "비동기 처리 방식으로 변경 및 작업 단위 조정",
+    "trace_id": "09ab3f20000000004d62a8a9b086f79e"
+  },
+  {
+    "service": "hsp-bff-cmp",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2025-06-04 06:18:00",
+    "resolution": "단위 테스트 강화 및 엣지 케이스 처리",
+    "trace_id": "515ab150000000003947448bb4b9c3e8"
+  },
+  {
+    "service": "csp-auth-client",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2025-05-31 02:48:39",
+    "resolution": "메시지 큐 용량 증설 및 백프레셔 메커니즘 구현",
+    "trace_id": "bf4b58240000000035a9340402a330df"
+  },
+  {
+    "service": "usp-api-proc",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2025-05-27 22:23:18",
+    "resolution": "중복 키 처리 로직 추가 및 트랜잭션 관리 강화",
+    "trace_id": "cfc0a45400000000a1ad4a5cae8a936c"
+  },
+  {
+    "service": "csp-search-proc",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2025-05-25 10:48:55",
+    "resolution": "외부 API 통신 안정성 강화 및 장애 대응 로직 구현",
+    "trace_id": "7b7ad9b3000000000e8e2695985a6f83"
+  },
+  {
+    "service": "wsp-bff-fo",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2025-05-24 21:06:57",
+    "resolution": "대용량 객체 처리 로직 개선 및 메모리 사용량 최적화",
+    "trace_id": "38100faf000000000e003f860e384c60"
+  },
+  {
+    "service": "fsp-pay-gateway",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2025-05-18 05:28:34",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "5c6e66ed000000000278eec877b808b8"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2025-05-10 20:13:44",
+    "resolution": "중복 키 처리 로직 추가 및 트랜잭션 관리 강화",
+    "trace_id": "29da2b1a000000008c4886297a2dbdb9"
+  },
+  {
+    "service": "gsp-sync-mgr",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2025-05-09 09:05:52",
+    "resolution": "가비지 컬렉션 파라미터 튜닝 및 모니터링 강화",
+    "trace_id": "e3ead21100000000f5e6860316138ca6"
+  },
+  {
+    "service": "hsp-bff-cmp",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2025-05-03 23:20:05",
+    "resolution": "중복 키 처리 로직 추가 및 트랜잭션 관리 강화",
+    "trace_id": "e359cf06000000004b00750ddc69ff07"
+  },
+  {
+    "service": "fsp-sync-handler",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2025-05-01 06:32:29",
+    "resolution": "검색 쿼리 최적화 및 오류 처리 로직 개선",
+    "trace_id": "5452424d00000000376202ab0afbd3a3"
+  },
+  {
+    "service": "ysp-core-dis",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2025-04-29 10:15:18",
+    "resolution": "DB 인덱스 최적화 및 트랜잭션 크기 축소",
+    "trace_id": "8798307700000000c8404655db1c8621"
+  },
+  {
+    "service": "osp-queue-util",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2025-04-28 09:23:59",
+    "resolution": "큐 모니터링 강화 및 부하 분산 전략 적용",
+    "trace_id": "206cb2cd000000005722ad81eddd51ad"
+  },
+  {
+    "service": "nsp-api-service",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2025-04-16 19:53:43",
+    "resolution": "비동기 처리 방식으로 변경 및 작업 단위 조정",
+    "trace_id": "f08edf4900000000ea5af1ac5a509dfb"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2025-04-08 08:37:53",
+    "resolution": "DB 세션 관리 개선 및 리소스 해제 로직 점검",
+    "trace_id": "788ffed9000000003c1d9f08ad74ae12"
+  },
+  {
+    "service": "fsp-user-util",
+    "error_message": "com.fasterxml.jackson.core.JsonParseException: Unexpected character",
+    "timestamp": "2025-04-02 20:05:21",
+    "resolution": "JSON 파싱 예외 처리 강화 및 유효성 검증 로직 추가",
+    "trace_id": "9beed75f00000000fd5c9d05f69551fa"
+  },
+  {
+    "service": "osp-noti-bo",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2025-03-28 20:17:52",
+    "resolution": "메시지 크기 제한 설정 조정 및 대용량 메시지 분할 처리",
+    "trace_id": "f5201bdc000000005ff7f5d27f394a46"
+  },
+  {
+    "service": "usp-admin-mgr",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2025-03-22 17:08:53",
+    "resolution": "Redis 클러스터 확장 및 고가용성 구성 검토",
+    "trace_id": "ddf8cd66000000009282acacae55c287"
+  },
+  {
+    "service": "hsp-proc-worker",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2025-03-19 16:04:41",
+    "resolution": "중복 키 처리 로직 추가 및 트랜잭션 관리 강화",
+    "trace_id": "e34841e00000000061e59438495df803"
+  },
+  {
+    "service": "rsp-search-srv",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2025-03-19 04:06:15",
+    "resolution": "서킷브레이커 패턴 적용 및 폴백 메커니즘 구현",
+    "trace_id": "73de4bde00000000f026f805dedc9fdf"
+  },
+  {
+    "service": "fsp-pay-gateway",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2025-03-14 09:09:59",
+    "resolution": "네트워크 타임아웃 설정 조정 및 재시도 로직 추가",
+    "trace_id": "920e92050000000067901896cbb08518"
+  },
+  {
+    "service": "jsp-rec-util",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2025-03-06 06:40:16",
+    "resolution": "네트워크 재시도 정책 적용 및 타임아웃 설정 조정",
+    "trace_id": "03516f1c00000000a3e4cba0ab5062bb"
+  },
+  {
+    "service": "tsp-rec-com",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2025-03-05 05:42:50",
+    "resolution": "버전 관리 메커니즘 도입 및 동시성 제어 개선",
+    "trace_id": "673dc6fd000000003b605e1bddb98b48"
+  },
+  {
+    "service": "wsp-sync-svc",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2025-03-01 16:09:00",
+    "resolution": "장기 실행 작업 분할 처리 및 진행 상태 추적 기능 추가",
+    "trace_id": "ae18be79000000006c84fca9a4ba968e"
+  },
+  {
+    "service": "isp-data-svc",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2025-02-23 06:27:58",
+    "resolution": "외부 API 통신 안정성 강화 및 장애 대응 로직 구현",
+    "trace_id": "a12a14b40000000054ecdf4fb2baf696"
+  },
+  {
+    "service": "ysp-data-mgr",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2025-02-20 15:04:44",
+    "resolution": "DB 인덱스 최적화 및 트랜잭션 크기 축소",
+    "trace_id": "220c4d7e000000001fedd738b376ded1"
+  },
+  {
+    "service": "msp-core-store",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2025-02-19 20:02:05",
+    "resolution": "장기 실행 작업 분할 처리 및 진행 상태 추적 기능 추가",
+    "trace_id": "43a9ca7800000000646b77908985b7af"
+  },
+  {
+    "service": "fsp-sync-handler",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2025-02-17 20:31:33",
+    "resolution": "Redis 커넥션 풀 설정 최적화 및 상태 모니터링 추가",
+    "trace_id": "d7b54db30000000006921543543c8823"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2025-02-16 19:16:52",
+    "resolution": "Redis 커넥션 풀 설정 최적화 및 상태 모니터링 추가",
+    "trace_id": "aa674f7d000000001adf98f011560b50"
+  },
+  {
+    "service": "isp-search-store",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2025-02-13 04:03:44",
+    "resolution": "캐시 사용 전략 개선 및 대체 메커니즘 구현",
+    "trace_id": "a716387e000000000e9168bdfbd62555"
+  },
+  {
+    "service": "ksp-data-svc",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2025-02-02 21:07:21",
+    "resolution": "DB 세션 관리 개선 및 리소스 해제 로직 점검",
+    "trace_id": "aaeb6c0c00000000e8edec1a3ed35497"
+  },
+  {
+    "service": "rsp-search-client",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2025-02-01 06:48:51",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "1f20823b0000000098809e883f0bc648"
+  },
+  {
+    "service": "msp-core-store",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2025-01-31 21:04:18",
+    "resolution": "캐시 사용 전략 개선 및 대체 메커니즘 구현",
+    "trace_id": "3e650fac000000002414ec382e750b42"
+  },
+  {
+    "service": "jsp-rec-util",
+    "error_message": "java.net.SocketTimeoutException: Read timed out",
+    "timestamp": "2025-01-28 18:01:16",
+    "resolution": "클라이언트 소켓 설정 최적화 및 재시도 로직 추가",
+    "trace_id": "ecd65d1c00000000026b9f1f0b9c6788"
+  },
+  {
+    "service": "isp-data-svc",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2025-01-26 09:06:25",
+    "resolution": "서킷브레이커 패턴 적용 및 폴백 메커니즘 구현",
+    "trace_id": "3dac0aaa00000000d858711975c22adc"
+  },
+  {
+    "service": "hsp-proc-worker",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2025-01-21 04:16:33",
+    "resolution": "장기 실행 작업 분할 처리 및 진행 상태 추적 기능 추가",
+    "trace_id": "7310fdaa000000009d0d0cee3ccdc1b8"
+  },
+  {
+    "service": "csp-search-proc",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2025-01-14 19:44:15",
+    "resolution": "네트워크 모니터링 강화 및 장애 복구 로직 구현",
+    "trace_id": "d1a1480d0000000027ac794eec86c7fb"
+  },
+  {
+    "service": "usp-admin-mgr",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2025-01-13 05:04:54",
+    "resolution": "생산자 조절 로직 추가 및 소비자 처리 속도 최적화",
+    "trace_id": "fa0b965000000000f8265653da974aec"
+  },
+  {
+    "service": "rsp-bff-dis",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2025-01-12 10:27:35",
+    "resolution": "쿼리 캐싱 전략 적용 및 커서 사용 최적화",
+    "trace_id": "7c3c6c0100000000bd882c5ae4c967a3"
+  },
+  {
+    "service": "nsp-pay-proxy",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2025-01-11 01:27:03",
+    "resolution": "메시지 처리 파이프라인 재설계 및 저장 전략 변경",
+    "trace_id": "6be683fb00000000464b64c7a82d1c6e"
+  },
+  {
+    "service": "csp-user-core",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2025-01-06 21:34:26",
+    "resolution": "커넥션 풀 설정 조정 및 쿼리 최적화",
+    "trace_id": "dcbb30130000000079fd43c132f85e2e"
+  },
+  {
+    "service": "lsp-core-handler",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2025-01-04 19:20:14",
+    "resolution": "데이터 모델 일관성 유지 및 마이그레이션 스크립트 적용",
+    "trace_id": "777be42f00000000ce2ae01bb6637572"
+  },
+  {
+    "service": "jsp-rec-util",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2025-01-03 06:15:55",
+    "resolution": "쿼리 캐싱 전략 적용 및 커서 사용 최적화",
+    "trace_id": "66971f440000000035ca9e6fb03e6960"
+  },
+  {
+    "service": "csp-cache-dis",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2024-12-28 14:18:23",
+    "resolution": "가비지 컬렉션 파라미터 튜닝 및 모니터링 강화",
+    "trace_id": "5798d576000000007767b77b130f49ab"
+  },
+  {
+    "service": "ysp-order-gateway",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2024-12-24 23:22:45",
+    "resolution": "데이터 모델 일관성 유지 및 마이그레이션 스크립트 적용",
+    "trace_id": "c2facb1a00000000513a4dddc7fa3004"
+  },
+  {
+    "service": "psp-bat-engine",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2024-12-23 22:08:45",
+    "resolution": "네트워크 재시도 정책 적용 및 타임아웃 설정 조정",
+    "trace_id": "9e4547b700000000b1c48df516a93a57"
+  },
+  {
+    "service": "csp-admin-proc",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-12-15 17:24:31",
+    "resolution": "동시성 제어 메커니즘 구현 및 락 전략 개선",
+    "trace_id": "c9560ce200000000c596a0a9f78e1476"
+  },
+  {
+    "service": "ssp-queue-mgr",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2024-12-10 08:11:21",
+    "resolution": "JVM 힙 메모리 설정 증가 및 메모리 누수 패턴 분석",
+    "trace_id": "85b428c300000000413bce42c685b5fc"
+  },
+  {
+    "service": "ysp-auth-gateway",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-12-08 10:19:46",
+    "resolution": "커넥션 풀 설정 조정 및 쿼리 최적화",
+    "trace_id": "77d7dff100000000a848810664c40bc9"
+  },
+  {
+    "service": "ysp-core-dis",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-12-08 01:20:39",
+    "resolution": "커넥션 풀 설정 조정 및 쿼리 최적화",
+    "trace_id": "187b2825000000002b999189fea8f827"
+  },
+  {
+    "service": "jsp-order-dcp",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-12-05 07:33:20",
+    "resolution": "쿼리 캐싱 전략 적용 및 커서 사용 최적화",
+    "trace_id": "87a0f279000000007e2674a829ec22e6"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2024-11-21 11:38:32",
+    "resolution": "트랜잭션 격리 수준 조정 및 재시도 로직 추가",
+    "trace_id": "59384e7200000000f81142a770cbe20b"
+  },
+  {
+    "service": "fsp-admin-handler",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2024-11-16 18:41:20",
+    "resolution": "생산자 조절 로직 추가 및 소비자 처리 속도 최적화",
+    "trace_id": "822523800000000091d247c331aaddce"
+  },
+  {
+    "service": "rsp-cache-worker",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-11-12 03:13:34",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "f5caf01500000000f94b193ad4101773"
+  },
+  {
+    "service": "csp-user-core",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2024-11-10 20:52:05",
+    "resolution": "쓰레드 풀 설정 조정 및 작업 타임아웃 증가",
+    "trace_id": "96dfa336000000009c793e4c5ff1d0df"
+  },
+  {
+    "service": "zsp-noti-com",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2024-11-06 00:34:46",
+    "resolution": "큐 모니터링 강화 및 부하 분산 전략 적용",
+    "trace_id": "17c6a978000000003d7a277a9f0d7906"
+  },
+  {
+    "service": "ysp-sync-engine",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2024-11-03 03:59:04",
+    "resolution": "널 체크 로직 추가 및 방어적 프로그래밍 적용",
+    "trace_id": "8ab4268900000000c8f2828367f11c9c"
+  },
+  {
+    "service": "csp-admin-proc",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2024-11-01 06:45:12",
+    "resolution": "Redis 클러스터 확장 및 고가용성 구성 검토",
+    "trace_id": "4885fa240000000093c67b33a53b66cc"
+  },
+  {
+    "service": "isp-api-svc",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2024-10-21 11:55:29",
+    "resolution": "Elasticsearch 클라이언트 버전 호환성 검토 및 업데이트",
+    "trace_id": "c5bcc23500000000492c5d0c2086845a"
+  },
+  {
+    "service": "ysp-order-gateway",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2024-10-17 17:12:41",
+    "resolution": "생산자 조절 로직 추가 및 소비자 처리 속도 최적화",
+    "trace_id": "6388084900000000f428a08f5515d060"
+  },
+  {
+    "service": "ksp-bat-worker",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2024-10-13 00:54:15",
+    "resolution": "메시지 큐 용량 증설 및 백프레셔 메커니즘 구현",
+    "trace_id": "061686fb000000002e83001b3d9cedbf"
+  },
+  {
+    "service": "msp-auth-com",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2024-10-11 23:53:40",
+    "resolution": "생산자 조절 로직 추가 및 소비자 처리 속도 최적화",
+    "trace_id": "89a3845900000000b2697cef5a563a8f"
+  },
+  {
+    "service": "zsp-msg-client",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2024-10-05 15:40:39",
+    "resolution": "네트워크 재시도 정책 적용 및 타임아웃 설정 조정",
+    "trace_id": "f4097e500000000037fe0aa18ec8d98c"
+  },
+  {
+    "service": "fsp-admin-handler",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2024-10-04 06:53:44",
+    "resolution": "메시지 큐 용량 증설 및 백프레셔 메커니즘 구현",
+    "trace_id": "4ca79460000000006730971d3bcb9230"
+  },
+  {
+    "service": "wsp-bff-fo",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-10-01 20:27:42",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "ea19662a00000000b08b24df12bb3a60"
+  },
+  {
+    "service": "wsp-order-gateway",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2024-09-22 08:12:52",
+    "resolution": "널 체크 로직 추가 및 방어적 프로그래밍 적용",
+    "trace_id": "1afa325800000000df5198b4f0178b94"
+  },
+  {
+    "service": "lsp-bff-engine",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2024-09-21 23:25:40",
+    "resolution": "Redis 커넥션 풀 설정 최적화 및 상태 모니터링 추가",
+    "trace_id": "9aec4f5e00000000873f15617c33bf12"
+  },
+  {
+    "service": "hsp-admin-client",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-09-13 19:55:00",
+    "resolution": "쿼리 캐싱 전략 적용 및 커서 사용 최적화",
+    "trace_id": "c1b9ea0000000000112bd1f37551ed97"
+  },
+  {
+    "service": "isp-cache-core",
+    "error_message": "java.net.SocketTimeoutException: Read timed out",
+    "timestamp": "2024-09-06 02:28:47",
+    "resolution": "클라이언트 소켓 설정 최적화 및 재시도 로직 추가",
+    "trace_id": "623483d300000000103f6d415d65557f"
+  },
+  {
+    "service": "osp-queue-util",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2024-08-30 22:39:30",
+    "resolution": "가비지 컬렉션 파라미터 튜닝 및 모니터링 강화",
+    "trace_id": "78d8c7e70000000099e9615c27be9cf8"
+  },
+  {
+    "service": "hsp-msg-proxy",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2024-08-29 13:03:23",
+    "resolution": "큐 모니터링 강화 및 부하 분산 전략 적용",
+    "trace_id": "76ea1efd0000000005728707040ee995"
+  },
+  {
+    "service": "csp-pay-proxy",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2024-08-21 07:32:38",
+    "resolution": "네트워크 타임아웃 설정 조정 및 재시도 로직 추가",
+    "trace_id": "38114f520000000059a4960a95364bdc"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-08-14 14:26:04",
+    "resolution": "동시성 제어 메커니즘 구현 및 락 전략 개선",
+    "trace_id": "2f47531c00000000790446ea091eb53d"
+  },
+  {
+    "service": "ysp-auth-gateway",
+    "error_message": "com.fasterxml.jackson.core.JsonParseException: Unexpected character",
+    "timestamp": "2024-08-09 20:53:57",
+    "resolution": "JSON 파싱 예외 처리 강화 및 유효성 검증 로직 추가",
+    "trace_id": "a5af4c21000000001686dc15f470f803"
+  },
+  {
+    "service": "usp-admin-mgr",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2024-08-07 00:42:15",
+    "resolution": "Optional 활용 및 코드 안정성 개선",
+    "trace_id": "0ec2549500000000687da2640f67f87d"
+  },
+  {
+    "service": "wsp-sync-svc",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2024-08-01 15:09:22",
+    "resolution": "단위 테스트 강화 및 엣지 케이스 처리",
+    "trace_id": "aba8373a00000000e1b7135edd41b430"
+  },
+  {
+    "service": "zsp-noti-com",
+    "error_message": "java.net.SocketTimeoutException: Read timed out",
+    "timestamp": "2024-07-29 06:23:18",
+    "resolution": "서비스 간 통신 타임아웃 파라미터 재설정",
+    "trace_id": "a2da6a5500000000f6f4bc32faeb4261"
+  },
+  {
+    "service": "qsp-proc-svc",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2024-07-28 06:57:26",
+    "resolution": "트랜잭션 타임아웃 증가 및 대용량 작업 분할 처리",
+    "trace_id": "39b77381000000005b513734ac329fd7"
+  },
+  {
+    "service": "jsp-rec-util",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2024-07-26 08:52:12",
+    "resolution": "낙관적 락 전략 적용 및 충돌 해결 로직 구현",
+    "trace_id": "0bc0fe1200000000f3fc4a182638b4f3"
+  },
+  {
+    "service": "fsp-admin-handler",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-07-21 00:29:33",
+    "resolution": "커넥션 풀 설정 조정 및 쿼리 최적화",
+    "trace_id": "a1b02cfb00000000ac3c0861e7900a0b"
+  },
+  {
+    "service": "hsp-proc-worker",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2024-07-16 06:00:40",
+    "resolution": "메시지 처리 파이프라인 재설계 및 저장 전략 변경",
+    "trace_id": "539104bc00000000bb5b0b812ebb1dcd"
+  },
+  {
+    "service": "isp-cache-com",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-07-08 12:32:30",
+    "resolution": "동시성 제어 메커니즘 구현 및 락 전략 개선",
+    "trace_id": "e3d6dc2e0000000054d8b3f9a9372e7d"
+  },
+  {
+    "service": "ssp-order-store",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2024-07-08 12:19:50",
+    "resolution": "버전 관리 메커니즘 도입 및 동시성 제어 개선",
+    "trace_id": "a3f40e2e00000000b216ae3d785aa8d3"
+  },
+  {
+    "service": "csp-cache-dis",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2024-07-07 11:41:58",
+    "resolution": "Elasticsearch 클라이언트 버전 호환성 검토 및 업데이트",
+    "trace_id": "7d7568ad0000000010d14b00e64446ac"
+  },
+  {
+    "service": "nsp-api-service",
+    "error_message": "com.fasterxml.jackson.core.JsonParseException: Unexpected character",
+    "timestamp": "2024-07-07 06:56:15",
+    "resolution": "API 요청/응답 포맷 검증 로직 강화",
+    "trace_id": "688caf18000000004b197e5108ebeb86"
+  },
+  {
+    "service": "rsp-search-client",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2024-07-01 21:40:37",
+    "resolution": "쓰레드 풀 설정 조정 및 작업 타임아웃 증가",
+    "trace_id": "601713ed0000000070584fd90025d714"
+  },
+  {
+    "service": "isp-cache-com",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2024-06-30 11:51:15",
+    "resolution": "검색 쿼리 최적화 및 오류 처리 로직 개선",
+    "trace_id": "9db08fd500000000fd7923d58bf96b35"
+  },
+  {
+    "service": "nsp-pay-proxy",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-06-28 00:26:09",
+    "resolution": "쿼리 캐싱 전략 적용 및 커서 사용 최적화",
+    "trace_id": "81ff834d00000000d4a3a1796883c995"
+  },
+  {
+    "service": "psp-auth-store",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-06-21 02:37:48",
+    "resolution": "중복 키 처리 로직 추가 및 트랜잭션 관리 강화",
+    "trace_id": "c20aec830000000049b8a50ca613efff"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2024-06-16 20:55:18",
+    "resolution": "낙관적 락 전략 적용 및 충돌 해결 로직 구현",
+    "trace_id": "2f3a4e72000000005f03db4e20cdd446"
+  },
+  {
+    "service": "msp-core-store",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2024-06-15 07:34:00",
+    "resolution": "데이터 모델 일관성 유지 및 마이그레이션 스크립트 적용",
+    "trace_id": "31e83ed400000000689bd13494bdea26"
+  },
+  {
+    "service": "isp-search-store",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2024-06-12 20:00:58",
+    "resolution": "버전 관리 메커니즘 도입 및 동시성 제어 개선",
+    "trace_id": "b1ad946800000000325cb01f14c5d720"
+  },
+  {
+    "service": "jsp-order-dcp",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2024-06-11 19:25:32",
+    "resolution": "버전 관리 메커니즘 도입 및 동시성 제어 개선",
+    "trace_id": "22a2213300000000b88e4c860fc75271"
+  },
+  {
+    "service": "lsp-core-handler",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2024-06-09 20:43:38",
+    "resolution": "쓰레드 풀 설정 조정 및 작업 타임아웃 증가",
+    "trace_id": "c563bba100000000bd1749774bbcd71b"
+  },
+  {
+    "service": "osp-noti-bo",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2024-06-08 13:35:44",
+    "resolution": "메시지 큐 용량 증설 및 백프레셔 메커니즘 구현",
+    "trace_id": "845a512e000000006e03c73ac0ba82e0"
+  },
+  {
+    "service": "ssp-rec-srv",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-06-07 07:01:27",
+    "resolution": "중복 키 처리 로직 추가 및 트랜잭션 관리 강화",
+    "trace_id": "989d19df000000008a456aa44ae45588"
+  },
+  {
+    "service": "psp-bat-engine",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2024-06-06 12:40:03",
+    "resolution": "트랜잭션 타임아웃 증가 및 대용량 작업 분할 처리",
+    "trace_id": "37665c700000000040d8e45bded20de3"
+  },
+  {
+    "service": "ssp-api-handler",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-06-04 09:05:37",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "cb1209ba0000000037caf0299f0a2997"
+  },
+  {
+    "service": "csp-admin-proc",
+    "error_message": "com.fasterxml.jackson.core.JsonParseException: Unexpected character",
+    "timestamp": "2024-06-01 08:32:15",
+    "resolution": "API 요청/응답 포맷 검증 로직 강화",
+    "trace_id": "548082fb00000000aa2d11796d58c5cc"
+  },
+  {
+    "service": "rsp-bff-dis",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2024-06-01 00:35:21",
+    "resolution": "비동기 처리 방식으로 변경 및 작업 단위 조정",
+    "trace_id": "52d2058c00000000e17448c33fb0b5b9"
+  },
+  {
+    "service": "ssp-data-worker",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2024-05-24 12:50:11",
+    "resolution": "메시지 처리 파이프라인 재설계 및 저장 전략 변경",
+    "trace_id": "9443afc700000000ae998cfb1ddba172"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2024-05-23 11:23:00",
+    "resolution": "트랜잭션 타임아웃 증가 및 대용량 작업 분할 처리",
+    "trace_id": "9d685020000000001755455bab9856e4"
+  },
+  {
+    "service": "ssp-order-store",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2024-05-19 21:01:11",
+    "resolution": "트랜잭션 타임아웃 증가 및 대용량 작업 분할 처리",
+    "trace_id": "7033d2790000000025cc8887bad77635"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2024-05-14 15:07:47",
+    "resolution": "장기 실행 작업 분할 처리 및 진행 상태 추적 기능 추가",
+    "trace_id": "e83587c200000000432d6c7173dec4cb"
+  },
+  {
+    "service": "csp-user-core",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2024-05-13 00:39:44",
+    "resolution": "네트워크 모니터링 강화 및 장애 복구 로직 구현",
+    "trace_id": "c46cf95a000000005a96ecd3ea7d00bc"
+  },
+  {
+    "service": "msp-core-store",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2024-05-06 22:08:39",
+    "resolution": "Redis 커넥션 풀 설정 최적화 및 상태 모니터링 추가",
+    "trace_id": "6c678c0e0000000013c0adeb7cb41caa"
+  },
+  {
+    "service": "dsp-cache-dis",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-05-05 12:37:53",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "e9841ff90000000026c1a0e3712e3ac0"
+  },
+  {
+    "service": "msp-core-store",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2024-05-01 10:27:03",
+    "resolution": "Optional 활용 및 코드 안정성 개선",
+    "trace_id": "c5c4489200000000b498b3c0b1672e5b"
+  },
+  {
+    "service": "ssp-core-gateway",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2024-04-26 23:18:11",
+    "resolution": "장기 실행 작업 분할 처리 및 진행 상태 추적 기능 추가",
+    "trace_id": "93cdefd900000000709bbdb3088f5f17"
+  },
+  {
+    "service": "nsp-api-service",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2024-04-19 03:34:06",
+    "resolution": "데이터 모델 일관성 유지 및 마이그레이션 스크립트 적용",
+    "trace_id": "b93f7ce90000000012bede7326a715bb"
+  },
+  {
+    "service": "zsp-noti-com",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-04-10 09:17:12",
+    "resolution": "쿼리 캐싱 전략 적용 및 커서 사용 최적화",
+    "trace_id": "4a3b3d6100000000d8a9515a0d57a9be"
+  },
+  {
+    "service": "tsp-rec-com",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2024-04-02 22:40:39",
+    "resolution": "캐시 사용 전략 개선 및 대체 메커니즘 구현",
+    "trace_id": "3c0e3053000000004a05c05a1dee6e6a"
+  },
+  {
+    "service": "fsp-cache-util",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2024-04-02 10:40:11",
+    "resolution": "널 체크 로직 추가 및 방어적 프로그래밍 적용",
+    "trace_id": "3c00598500000000df96e4e191f9dc1b"
+  },
+  {
+    "service": "osp-queue-util",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2024-04-01 13:57:31",
+    "resolution": "JVM 힙 메모리 설정 증가 및 메모리 누수 패턴 분석",
+    "trace_id": "af0460ca00000000f324427923f463a8"
+  },
+  {
+    "service": "vsp-bff-handler",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2024-03-19 20:12:31",
+    "resolution": "압축 알고리즘 적용 및 페이로드 최적화",
+    "trace_id": "e70f636f000000003646c60e1de14a3a"
+  },
+  {
+    "service": "gsp-bat-srv",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2024-03-19 11:22:10",
+    "resolution": "쓰레드 풀 설정 조정 및 작업 타임아웃 증가",
+    "trace_id": "ae7d5cf6000000006ff9cc324f60ba72"
+  },
+  {
+    "service": "msp-order-srv",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2024-03-18 19:54:33",
+    "resolution": "네트워크 타임아웃 설정 조정 및 재시도 로직 추가",
+    "trace_id": "9c122cc7000000007643000290110f0d"
+  },
+  {
+    "service": "hsp-admin-client",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2024-03-16 23:18:42",
+    "resolution": "가비지 컬렉션 파라미터 튜닝 및 모니터링 강화",
+    "trace_id": "489045ac00000000c4e3845994a8d3bf"
+  },
+  {
+    "service": "hsp-admin-client",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-03-14 01:21:22",
+    "resolution": "DB 세션 관리 개선 및 리소스 해제 로직 점검",
+    "trace_id": "d824320100000000224bd68c667fc667"
+  },
+  {
+    "service": "lsp-data-engine",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2024-03-08 19:50:40",
+    "resolution": "쿼리 캐싱 전략 적용 및 커서 사용 최적화",
+    "trace_id": "0520595800000000d53299657e2f70ed"
+  },
+  {
+    "service": "wsp-bff-fo",
+    "error_message": "java.net.SocketTimeoutException: Read timed out",
+    "timestamp": "2024-03-07 20:02:58",
+    "resolution": "서비스 간 통신 타임아웃 파라미터 재설정",
+    "trace_id": "8cbfebe80000000049d0628dd99980f5"
+  },
+  {
+    "service": "wsp-noti-proxy",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2024-03-06 21:41:23",
+    "resolution": "장기 실행 작업 분할 처리 및 진행 상태 추적 기능 추가",
+    "trace_id": "6e7ca320000000005935c0b81f254e89"
+  },
+  {
+    "service": "ssp-api-handler",
+    "error_message": "java.net.SocketTimeoutException: Read timed out",
+    "timestamp": "2024-03-06 13:01:28",
+    "resolution": "클라이언트 소켓 설정 최적화 및 재시도 로직 추가",
+    "trace_id": "032e77030000000037bf6bea542eb30c"
+  },
+  {
+    "service": "msp-order-srv",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-02-28 16:29:08",
+    "resolution": "중복 키 처리 로직 추가 및 트랜잭션 관리 강화",
+    "trace_id": "72720ea50000000072714d89c8546123"
+  },
+  {
+    "service": "ysp-sync-engine",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2024-02-22 20:06:33",
+    "resolution": "메시지 처리 파이프라인 재설계 및 저장 전략 변경",
+    "trace_id": "4748161b0000000044a4221cf19424eb"
+  },
+  {
+    "service": "usp-pay-proxy",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2024-02-21 16:02:05",
+    "resolution": "네트워크 타임아웃 설정 조정 및 재시도 로직 추가",
+    "trace_id": "6db21cfc00000000a5c3c17e66e26c68"
+  },
+  {
+    "service": "ksp-bat-worker",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2024-02-09 02:07:08",
+    "resolution": "단위 테스트 강화 및 엣지 케이스 처리",
+    "trace_id": "bd52848a00000000277a5d3787434f3c"
+  },
+  {
+    "service": "usp-api-proc",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-02-03 03:03:54",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "c350843d000000003d18f1d7e60573f7"
+  },
+  {
+    "service": "rsp-bff-dis",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2024-01-30 07:24:15",
+    "resolution": "Redis 클러스터 확장 및 고가용성 구성 검토",
+    "trace_id": "b952316e00000000cc593fea8564bbdd"
+  },
+  {
+    "service": "gsp-sync-mgr",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2024-01-25 05:09:38",
+    "resolution": "트랜잭션 타임아웃 증가 및 대용량 작업 분할 처리",
+    "trace_id": "4830d65d0000000021fc6b349b5da198"
+  },
+  {
+    "service": "jsp-order-dcp",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2024-01-23 13:39:16",
+    "resolution": "단위 테스트 강화 및 엣지 케이스 처리",
+    "trace_id": "909c226a000000004d74973d0902e263"
+  },
+  {
+    "service": "dsp-pay-worker",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2024-01-18 02:43:31",
+    "resolution": "비동기 처리 방식으로 변경 및 작업 단위 조정",
+    "trace_id": "f940c715000000009cd49d3d539037d0"
+  },
+  {
+    "service": "hsp-admin-client",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2024-01-06 12:44:06",
+    "resolution": "압축 알고리즘 적용 및 페이로드 최적화",
+    "trace_id": "ff1d9e4700000000cc38efabf82d98d9"
+  },
+  {
+    "service": "hsp-admin-client",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2024-01-05 17:31:23",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "771c0de100000000c1fe715b3fb23411"
+  },
+  {
+    "service": "isp-admin-service",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2024-01-04 16:18:37",
+    "resolution": "외부 API 통신 안정성 강화 및 장애 대응 로직 구현",
+    "trace_id": "5006453d000000005b551e3e879881a0"
+  },
+  {
+    "service": "lsp-core-handler",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2024-01-03 06:27:15",
+    "resolution": "네트워크 재시도 정책 적용 및 타임아웃 설정 조정",
+    "trace_id": "533e685100000000ecfbb1b7f3d02644"
+  },
+  {
+    "service": "usp-noti-store",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2023-12-21 12:31:00",
+    "resolution": "대용량 객체 처리 로직 개선 및 메모리 사용량 최적화",
+    "trace_id": "fdf478ad00000000d5cd549720bd20b2"
+  },
+  {
+    "service": "lsp-bff-bo",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2023-12-19 12:02:48",
+    "resolution": "커넥션 풀 설정 최적화 및 안정성 개선",
+    "trace_id": "4221e93c000000003d03e776f1e19c5d"
+  },
+  {
+    "service": "hsp-proc-worker",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2023-12-19 05:20:57",
+    "resolution": "메시지 큐 용량 증설 및 백프레셔 메커니즘 구현",
+    "trace_id": "1626059600000000b6dac6867ae26c5a"
+  },
+  {
+    "service": "zsp-user-srv",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2023-12-18 20:02:27",
+    "resolution": "Redis 커넥션 풀 설정 최적화 및 상태 모니터링 추가",
+    "trace_id": "a120ac0a0000000081b4ca30d1eb4f9b"
+  },
+  {
+    "service": "ssp-api-handler",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2023-12-10 23:27:55",
+    "resolution": "메시지 크기 제한 설정 조정 및 대용량 메시지 분할 처리",
+    "trace_id": "5797972500000000a72d31c68c01a18d"
+  },
+  {
+    "service": "hsp-proc-worker",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2023-12-08 12:41:29",
+    "resolution": "네트워크 타임아웃 설정 조정 및 재시도 로직 추가",
+    "trace_id": "dd54175a00000000f3e9010faf1734f6"
+  },
+  {
+    "service": "isp-cache-core",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2023-11-27 23:17:35",
+    "resolution": "네트워크 재시도 정책 적용 및 타임아웃 설정 조정",
+    "trace_id": "01862a0b00000000624086bd44ad6828"
+  },
+  {
+    "service": "osp-noti-bo",
+    "error_message": "java.net.SocketTimeoutException: Read timed out",
+    "timestamp": "2023-11-23 05:31:57",
+    "resolution": "타임아웃 설정 증가 및 백오프 전략 적용",
+    "trace_id": "a6376835000000000d124720fc373e16"
+  },
+  {
+    "service": "ssp-data-worker",
+    "error_message": "com.fasterxml.jackson.core.JsonParseException: Unexpected character",
+    "timestamp": "2023-11-22 15:39:08",
+    "resolution": "API 요청/응답 포맷 검증 로직 강화",
+    "trace_id": "ea451bcb000000002dd50962221ee6e1"
+  },
+  {
+    "service": "msp-order-srv",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2023-11-22 06:45:04",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "440ca74600000000e1748ecb06204c65"
+  },
+  {
+    "service": "usp-admin-mgr",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2023-11-20 19:06:37",
+    "resolution": "DB 인덱스 최적화 및 트랜잭션 크기 축소",
+    "trace_id": "ba109fd4000000005aef2ec8073ada5f"
+  },
+  {
+    "service": "nsp-api-fo",
+    "error_message": "java.lang.NullPointerException",
+    "timestamp": "2023-11-19 18:46:26",
+    "resolution": "단위 테스트 강화 및 엣지 케이스 처리",
+    "trace_id": "9e4c7fe700000000cea8873ec0e0528e"
+  },
+  {
+    "service": "lsp-data-engine",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2023-11-17 22:03:04",
+    "resolution": "검색 쿼리 최적화 및 오류 처리 로직 개선",
+    "trace_id": "6d4b0d96000000002866de1c6b861fb4"
+  },
+  {
+    "service": "ksp-user-handler",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2023-11-17 15:44:10",
+    "resolution": "쿼리 캐싱 전략 적용 및 커서 사용 최적화",
+    "trace_id": "af2dc712000000003b303da6685a7d5a"
+  },
+  {
+    "service": "usp-admin-mgr",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2023-11-16 02:48:51",
+    "resolution": "가비지 컬렉션 파라미터 튜닝 및 모니터링 강화",
+    "trace_id": "448a4273000000001ba42819ff4e841c"
+  },
+  {
+    "service": "usp-admin-mgr",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2023-11-14 17:21:29",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "837cf16100000000736cf31d63881b78"
+  },
+  {
+    "service": "lsp-core-handler",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2023-11-04 06:33:58",
+    "resolution": "비동기 작업 처리 로직 최적화 및 모니터링 강화",
+    "trace_id": "0b575e88000000006cd9e424b4fc6331"
+  },
+  {
+    "service": "ssp-core-gateway",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2023-10-26 20:55:12",
+    "resolution": "메시지 크기 제한 설정 조정 및 대용량 메시지 분할 처리",
+    "trace_id": "545a454f000000004ec8889489696fa9"
+  },
+  {
+    "service": "psp-msg-bo",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2023-10-22 21:18:06",
+    "resolution": "생산자 조절 로직 추가 및 소비자 처리 속도 최적화",
+    "trace_id": "3fc2bd43000000009c0b0c1d64cd0c36"
+  },
+  {
+    "service": "nsp-api-service",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2023-10-21 09:52:11",
+    "resolution": "동시성 제어 메커니즘 구현 및 락 전략 개선",
+    "trace_id": "19d48ccd00000000ba71f546f0c6ff7d"
+  },
+  {
+    "service": "ysp-data-mgr",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2023-10-19 16:53:26",
+    "resolution": "큐 모니터링 강화 및 부하 분산 전략 적용",
+    "trace_id": "51f516df00000000f0a76f91dfa9fc9e"
+  },
+  {
+    "service": "msp-core-store",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2023-10-15 05:34:53",
+    "resolution": "생산자 조절 로직 추가 및 소비자 처리 속도 최적화",
+    "trace_id": "7e6ffb3400000000b8dc79cfc4c577c9"
+  },
+  {
+    "service": "rsp-bff-dis",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2023-10-10 13:10:46",
+    "resolution": "Elasticsearch 클라이언트 버전 호환성 검토 및 업데이트",
+    "trace_id": "112d54a200000000496e8017d593104b"
+  },
+  {
+    "service": "ssp-data-worker",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2023-10-01 07:16:02",
+    "resolution": "대용량 객체 처리 로직 개선 및 메모리 사용량 최적화",
+    "trace_id": "9d16731d00000000aba7ae96739a0301"
+  },
+  {
+    "service": "gsp-bat-srv",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2023-09-29 23:04:31",
+    "resolution": "Elasticsearch 클라이언트 버전 호환성 검토 및 업데이트",
+    "trace_id": "58b16e4e000000002616521f9b00876b"
+  },
+  {
+    "service": "wsp-order-gateway",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2023-09-28 19:50:48",
+    "resolution": "JVM 힙 메모리 설정 증가 및 메모리 누수 패턴 분석",
+    "trace_id": "8a329df700000000f7eb465a4f660384"
+  },
+  {
+    "service": "zsp-user-srv",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2023-09-24 17:23:50",
+    "resolution": "네트워크 타임아웃 설정 조정 및 재시도 로직 추가",
+    "trace_id": "f9bea45c00000000705bee6853e3bc06"
+  },
+  {
+    "service": "usp-noti-store",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2023-09-23 15:45:11",
+    "resolution": "DB 세션 관리 개선 및 리소스 해제 로직 점검",
+    "trace_id": "7d549eee000000006b81cdb794b04e52"
+  },
+  {
+    "service": "ksp-admin-core",
+    "error_message": "redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool",
+    "timestamp": "2023-09-22 15:35:30",
+    "resolution": "Redis 커넥션 풀 설정 최적화 및 상태 모니터링 추가",
+    "trace_id": "52d89c6000000000497815e902e5ae07"
+  },
+  {
+    "service": "ssp-api-handler",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2023-09-20 20:46:58",
+    "resolution": "중복 키 처리 로직 추가 및 트랜잭션 관리 강화",
+    "trace_id": "c3b5d37900000000b51540ced1f87d88"
+  },
+  {
+    "service": "ksp-admin-core",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2023-09-19 08:26:10",
+    "resolution": "검색 쿼리 최적화 및 오류 처리 로직 개선",
+    "trace_id": "975ea18900000000425433e98d5b3fa0"
+  },
+  {
+    "service": "hsp-msg-proxy",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2023-09-16 07:36:34",
+    "resolution": "대용량 객체 처리 로직 개선 및 메모리 사용량 최적화",
+    "trace_id": "cfdd20ae00000000b155a28bd03202ef"
+  },
+  {
+    "service": "nsp-api-fo",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2023-09-12 19:36:46",
+    "resolution": "Elasticsearch 클라이언트 버전 호환성 검토 및 업데이트",
+    "trace_id": "e75fc1f500000000c4a1bc35916cbb46"
+  },
+  {
+    "service": "rsp-cache-worker",
+    "error_message": "com.fasterxml.jackson.core.JsonParseException: Unexpected character",
+    "timestamp": "2023-09-06 01:34:50",
+    "resolution": "직렬화/역직렬화 예외 처리 개선 및 데이터 정제 과정 추가",
+    "trace_id": "1a3d73a000000000084053a9bfd1a3b6"
+  },
+  {
+    "service": "dsp-queue-com",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2023-08-27 02:35:49",
+    "resolution": "메시지 큐 용량 증설 및 백프레셔 메커니즘 구현",
+    "trace_id": "b759b3e400000000feb4e0ed17881316"
+  },
+  {
+    "service": "lsp-core-handler",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2023-08-26 04:54:25",
+    "resolution": "서킷브레이커 패턴 적용 및 폴백 메커니즘 구현",
+    "trace_id": "06e98ee90000000087b43c159cad11b5"
+  },
+  {
+    "service": "hsp-proc-worker",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2023-08-24 16:03:45",
+    "resolution": "비동기 처리 방식으로 변경 및 작업 단위 조정",
+    "trace_id": "ee6bd4600000000027657002ec0d1b46"
+  },
+  {
+    "service": "isp-admin-dcp",
+    "error_message": "org.apache.kafka.common.errors.RecordTooLargeException: The message is too large",
+    "timestamp": "2023-08-23 17:49:35",
+    "resolution": "압축 알고리즘 적용 및 페이로드 최적화",
+    "trace_id": "27619bb50000000033ad004c3a53685e"
+  },
+  {
+    "service": "dsp-queue-com",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2023-08-23 13:38:47",
+    "resolution": "동시성 제어 메커니즘 구현 및 락 전략 개선",
+    "trace_id": "5cdc27c900000000e6854c5ee63966f3"
+  },
+  {
+    "service": "ssp-core-gateway",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2023-08-21 00:29:12",
+    "resolution": "커넥션 풀 설정 조정 및 쿼리 최적화",
+    "trace_id": "6d74188f00000000804122d83adb4f8a"
+  },
+  {
+    "service": "ysp-order-gateway",
+    "error_message": "java.sql.SQLException: ORA-01000: maximum open cursors exceeded",
+    "timestamp": "2023-08-19 23:29:09",
+    "resolution": "커넥션 풀 설정 조정 및 쿼리 최적화",
+    "trace_id": "bc55250100000000e9d6e43c77415b34"
+  },
+  {
+    "service": "ksp-user-handler",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2023-08-16 21:01:44",
+    "resolution": "데이터 모델 일관성 유지 및 마이그레이션 스크립트 적용",
+    "trace_id": "8b81377b0000000058d96c88b4a2d74e"
+  },
+  {
+    "service": "isp-admin-service",
+    "error_message": "javax.persistence.PersistenceException: Transaction timeout",
+    "timestamp": "2023-08-16 09:07:28",
+    "resolution": "트랜잭션 타임아웃 증가 및 대용량 작업 분할 처리",
+    "trace_id": "307d985d00000000ce6bc1e00da7432d"
+  },
+  {
+    "service": "vsp-api-dcp",
+    "error_message": "org.springframework.dao.DataIntegrityViolationException: Duplicate entry",
+    "timestamp": "2023-08-15 20:54:55",
+    "resolution": "고유 인덱스 설계 검토 및 비즈니스 로직 수정",
+    "trace_id": "7b440863000000000c4f54f6086d3c4b"
+  },
+  {
+    "service": "usp-noti-store",
+    "error_message": "java.io.IOException: Connection reset by peer",
+    "timestamp": "2023-08-14 13:21:57",
+    "resolution": "네트워크 타임아웃 설정 조정 및 재시도 로직 추가",
+    "trace_id": "7325f36000000000499806f000fe47e0"
+  },
+  {
+    "service": "csp-cache-dis",
+    "error_message": "org.springframework.web.client.ResourceAccessException: I/O error",
+    "timestamp": "2023-07-30 14:22:40",
+    "resolution": "서킷브레이커 패턴 적용 및 폴백 메커니즘 구현",
+    "trace_id": "32f979610000000002285aea3867aede"
+  },
+  {
+    "service": "ysp-order-gateway",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2023-07-27 02:51:59",
+    "resolution": "검색 쿼리 최적화 및 오류 처리 로직 개선",
+    "trace_id": "55e6e5a700000000a3e09ca08f52e0bf"
+  },
+  {
+    "service": "ssp-rec-srv",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2023-07-24 23:32:28",
+    "resolution": "대용량 객체 처리 로직 개선 및 메모리 사용량 최적화",
+    "trace_id": "a1edb625000000002aa0b1ac738f5b73"
+  },
+  {
+    "service": "nsp-api-fo",
+    "error_message": "org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction",
+    "timestamp": "2023-07-21 04:06:14",
+    "resolution": "버전 관리 메커니즘 도입 및 동시성 제어 개선",
+    "trace_id": "d8df1ab100000000b59a0a514dd0d93d"
+  },
+  {
+    "service": "isp-cache-com",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2023-07-20 05:51:38",
+    "resolution": "장기 실행 작업 분할 처리 및 진행 상태 추적 기능 추가",
+    "trace_id": "4e56832a000000001e04239e5bbff082"
+  },
+  {
+    "service": "osp-order-proc",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2023-07-18 08:20:50",
+    "resolution": "큐 모니터링 강화 및 부하 분산 전략 적용",
+    "trace_id": "56cc682f0000000065cc4d865e6f911a"
+  },
+  {
+    "service": "vsp-auth-mgr",
+    "error_message": "java.net.SocketTimeoutException: Read timed out",
+    "timestamp": "2023-07-16 03:20:50",
+    "resolution": "타임아웃 설정 증가 및 백오프 전략 적용",
+    "trace_id": "19c95f7b000000009d21af508e79223e"
+  },
+  {
+    "service": "csp-admin-proc",
+    "error_message": "java.lang.OutOfMemoryError: Java heap space",
+    "timestamp": "2023-07-09 21:52:28",
+    "resolution": "대용량 객체 처리 로직 개선 및 메모리 사용량 최적화",
+    "trace_id": "a817c0eb00000000dc728ed7ed6eaca2"
+  },
+  {
+    "service": "ysp-auth-gateway",
+    "error_message": "java.lang.IllegalStateException: Queue full",
+    "timestamp": "2023-07-06 06:36:18",
+    "resolution": "메시지 큐 용량 증설 및 백프레셔 메커니즘 구현",
+    "trace_id": "11ccd534000000001134921a1e488a16"
+  },
+  {
+    "service": "vsp-queue-service",
+    "error_message": "java.util.concurrent.TimeoutException: Timeout waiting for task",
+    "timestamp": "2023-07-03 04:40:52",
+    "resolution": "쓰레드 풀 설정 조정 및 작업 타임아웃 증가",
+    "trace_id": "4b78a36e00000000f091f6305eed956f"
+  },
+  {
+    "service": "lsp-data-engine",
+    "error_message": "org.elasticsearch.transport.RemoteTransportException: Failed to deserialize response",
+    "timestamp": "2023-07-01 08:48:39",
+    "resolution": "Elasticsearch 클라이언트 버전 호환성 검토 및 업데이트",
+    "trace_id": "ae2c3c8d000000006eafc0ae483dfbc7"
+  }
+]
