@@ -1,4 +1,4 @@
-# SKT 구독팀 ChatOps 시스템
+# Multi-agent collaboration을 활용한 ChatOps 시스템
 
 이 프로젝트는 Datadog과 Amazon Bedrock을 활용하여 서비스 장애 분석 및 대응을 자동화하는 ChatOps 시스템입니다.
 
